@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -22,5 +23,5 @@
     "url": "https://github.com/maximosigniorini/ortBot/issues"
   },
   "homepage": "https://github.com/maximosigniorini/ortBot#readme",
-  "description": ""
+  "description": "Bot de Discord de FCDC Forkeado para deployear en heroku"
 }
