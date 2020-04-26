@@ -1,6 +1,9 @@
 const {Client, MessageAttachment} = require('discord.js');
-const { prefix, token, giphyToken} = require('./config.json');
 const client = new Client();
+
+const prefix = process.env.prefix;
+const token = process.env.TOKEN;
+const giphyToken = process.env.giphyToken;
 
 const fs = require('fs');
 let sonidos = ["Chano", "aparezco", "buenisimo", "fino", "niki", "a4", "aplaudo", "cortito", "hola", "privado", "acho", "basta", "cpiko", "jaram", "skate", "achotapita", "boa", "dios", "love", "traicionera", "ahre", "bob", "filisteo", "marina"];
